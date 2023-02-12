@@ -1,3 +1,29 @@
+/*scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    background: rgb(0, 0, 0);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5); 
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+}
+
+/*navbar*/
+
 nav {
     height: 5rem;
     width: 100vw;
@@ -44,7 +70,7 @@ nav {
     font-size: 1.3rem;
 }
 .nav-links li a:hover {
-    color: #61DAFB;
+    color: #a2d494;
 }
 .nav-links li {
     position: relative;
@@ -54,7 +80,7 @@ nav {
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #61DAFB;
+    background-color: #a2d494;
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
