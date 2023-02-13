@@ -12,14 +12,17 @@
 <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="ekonomi.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav>
         <div class="logo">
-            <img src="Logo Kolese Kanisius.PNG" alt="Logo Kolese Kanisius">
+            <img class="img" src="Logo Kolese Kanisius.PNG" alt="Logo Kolese Kanisius">
         </div>
         <div class="logo">
-            <img src="logo white.png" alt="Logo Kelompok 31 Jambore">
+            <img class="img" src="logo white.png" alt="Logo Kelompok 31 Jambore">
         </div>
         <div class="hamburger">
             <div class="line1"></div>
@@ -39,23 +42,27 @@
 
 <div class="wrap">
 
-    <div class="page flexCol">
-        <h1 class="heading">Kegiatan Perekonomian di Lokasi Jambore</h1>
-        <p class="desc">Kebanyakan warga-warga di daerah Deles kegiatan sehari-harinya
+    <div class="page flexCol" id="intro">
+        <h1 class="heading" data-aos="fade-right" data-aos-delay="300" data-aos-easing="ease-in-sine">
+            Kegiatan Perekonomian di Lokasi Jambore
+        </h1>
+        <p class="desc" data-aos="fade-left" data-aos-delay="300" data-aos-easing="ease-in-sine">
+            Kebanyakan warga-warga di daerah Deles kegiatan sehari-harinya
             adalah dengan memberi makan ternak, memotong rumput, memetik cabai dan 
             bahkan ada juga beberapa tempat untuk pertambangan batu.
             Berikut adalah kegiatan-kegiatan Ekonomi
             yang dilakukan oleh orang-orang di lokasi Jambore kami
-            yaitu Deles, kabupaten klaten.</p>
+            yaitu Deles, kabupaten klaten.
+        </p>
     </div>
 
     <section class="page flexCol">
-        <h2 class="subheading">
+        <h2 class="subheading" data-aos="fade-up"  data-aos-delay="300">
             Memotong Rumput
         </h2>
-        <div class="subpage flexRow">
+        <div class="subpage flexRow" data-aos="fade-up"  data-aos-delay="300">
             <div class="col">
-                <img src="DOKUMENTASI\3A0A7A7E-DDA4-4D7D-93D1-2DFA791B7127-781-0000005632BBEE09.jpg">
+                <img class="img" src="DOKUMENTASI\3A0A7A7E-DDA4-4D7D-93D1-2DFA791B7127-781-0000005632BBEE09.jpg">
             </div>
 
             <div class="col">
@@ -72,12 +79,12 @@
     </section>
 
     <section class="page flexCol">
-        <h2 class="subheading">
+        <h2 class="subheading" data-aos="fade-up"  data-aos-delay="300">
             Berternak Sapi
         </h2>
-        <div class="subpage flexRow">
+        <div class="subpage flexRow" data-aos="fade-up"  data-aos-delay="300">
             <div class="col">
-                <img src="DOKUMENTASI\389A3B9F-09AD-4364-B645-AC13E3785A34-781-000000565051783F.jpg">
+                <img class="img" src="DOKUMENTASI\389A3B9F-09AD-4364-B645-AC13E3785A34-781-000000565051783F.jpg">
             </div>
 
             <div class="col">
@@ -93,12 +100,12 @@
     </section>
     
     <section class="page flexCol">
-        <h2 class="subheading">
+        <h2 class="subheading" data-aos="fade-up"  data-aos-delay="300">
             Tambang Batu
         </h2>
-        <div class="subpage flexRow">
+        <div class="subpage flexRow" data-aos="fade-up"  data-aos-delay="300">
             <div class="col">
-                <img src="DOKUMENTASI\ADCFF698-6099-4570-A175-87613231BB42-781-000000567A010EB9.jpg">
+                <img class="img" src="DOKUMENTASI\ADCFF698-6099-4570-A175-87613231BB42-781-000000567A010EB9.jpg">
             </div>
 
             <div class="col">
@@ -118,15 +125,15 @@
     </section>
     
     <section class="page flexCol kopiPetruk">
-        <h2 class="heading">
+        <h2 class="heading" data-aos="zoom-in" data-aos-delay="600">
             Kopi Petruk
         </h2>
-        <h2 class="subheading">
+        <h2 class="subheading" data-aos="zoom-in" data-aos-delay="600">
             Potensi Ekonomi Kreatif
         </h2>
-        <div class="subpage flexRow">
+        <div class="subpage flexRow" data-aos="zoom-in" data-aos-delay="600">
             <div class="col">
-                <img src="kopi petruk.jpg">
+                <img class="img" src="kopi petruk.jpg">
             </div>
 
             <div class="col">
@@ -143,7 +150,7 @@
                 </p>
             </div>
         </div>
-        <div class="subpage flexRow">
+        <div class="subpage flexRow" data-aos="zoom-in"  data-aos-delay="600">
             <div class="col">
                 <p class="desc">
                     Proses Pembuatan
@@ -160,9 +167,76 @@
             </div>
 
             <div class="col">
-                <img src="kopi.jpg">
+                <img class="img" src="kopi.jpg">
             </div>
         </div>
     </section>
-</body>
+    <script src="nav.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body><footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <img src="logocc.png" alt="">
+                    <br><br>
+                <p>Dibuat oleh Kelompok 31</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>Anggota Kelompok</h2>
+                <ul>
+                    <li>Vincentius Farrel Bhaskoro S.</li>
+                    <li>Hans Joseph Himawan></li>
+                    <li> Jovan Iskandar</li>
+                    <li>Haposan Christian Gultom</li>
+                    <li>Alexander Bayuarsa Naresputra</li>
+                    <li>Moses Joshua Lesmana</li>
+                    <li>Andre Nicholas Sedewa B.</li>
+                    <li>Marcellus Darren Zhang</li>
+                </ul>
+                </div>                    
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>Artikel Lainnya</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="biologi.html">Biologi</a></li>
+                    <li><a href="fisika.html">Fisika</a></li>
+                    <li><a href="kimia.html">Kimia</a></li>
+                    <li><a href="sosiologi.html">Sosiologi</a></li>
+                    <li><a href="ekonomi.html">Ekonomi</a></li>
+                    <li><a href="geografi.html">Geografi</a></li>
+                </ul>
+                </div>                    
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>Kesan &amp Pesan</h2>
+                    <p>Silahkan berikan kesan &amp pesan kalian tentang website kami</p>
+                    <div class="input-group mb-3">
+                        <form>
+                            <i class="far fa-envelope"></i><input type="email" placeholder="Masukkan email Anda" required><button type="submit"><i class="fas fa-arrow-right"></i></button>
+                        </form>
+                    </div>
+                    <h2>Follow us on</h2>
+                    <p class="socials">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-dribbble"></i>
+                        <i class="fa fa-pinterest"></i>
+                        <i class="fa fa-twitter"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+	<p class="kopiret"> Kelompok 31 Jambore 2023 &copy 2023 - All Right Reserved</p>
+</footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.min.js">
 </html>

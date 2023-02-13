@@ -12,6 +12,10 @@ html {
     overflow-x: hidden;
 }
 
+#intro {
+    max-width: 80%;
+}
+
 body {
     background-image: url('merapi wallpaper.jpg');
     background-size: 100% 100%;
@@ -35,7 +39,7 @@ body {
     background-size: 100%;
 }
 
-img{
+.img{
     max-width: 500px;
     max-height: 500px;
     width: 100%;

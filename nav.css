@@ -63,6 +63,7 @@ nav {
     align-items: center;
     text-transform: uppercase;
     gap: 2rem;
+    margin: 0;
 }
 
 .nav-links li a{
@@ -181,6 +182,116 @@ nav {
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+
+/* footer */
+
+
+footer {
+	background: rgb(25, 29, 23);
+	padding: 86px 0;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p {
+	color: #fff;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li{
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+
+.single-box ul li a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: #fff;
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+.single-box img{
+    height: 10ex;
+}
+
+form{
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 50px;
+}
+
+form .far{
+	font-size: 0.1ex;
+	margin-right: 20ex;
+}
+
+form input{
+	width: 30ex;
+	background: transparent;
+	color: #ccc;
+	border: 0;
+	outline: none;
+}
+
+form button{
+	background: transparent;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+form button .fas{
+	font-size: 16px;
+	color: #fff;
+
+}
+
+.kopiret{
+	text-align: center;
+    color: white;
+}
+
 
 @font-face {
     font-family: squidGame;
