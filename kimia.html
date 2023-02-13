@@ -1,0 +1,431 @@
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jambore Kelompok 31</title>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="nav.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      html{
+        scroll-behavior: smooth;
+        font-size: 15px;
+      }
+      body{
+        background-color: rgb(17, 20, 16);
+        margin: 0px;
+      }
+  
+      .ISI{
+        margin: 175px 50px 0px 50px;
+        font-family: helvetica;
+        font-weight: bold;
+      }
+      .HeaderIsi{
+        display: inline-block;
+        width: 100%;
+        margin-top: 30px;
+      }
+      .GambarJudulIsi{
+        height: 425px;
+        width: 650px;
+        margin: -360px 0 0 65px;
+        object-fit: cover;
+        border-radius: 70% 30% 30% 70% / 40% 60% 40% 60%;
+        float: right;
+        display: inline-block;
+      }
+      .JudulIsi{
+        color: #FEFAE0;
+        font-size: 2.5rem;
+        margin: 0 0 10px 0;
+        width: 600px;
+        font-family: 'valorant', 'IM Fell Double Pica', sans-serif;
+      }
+      .DesignTextMerapi{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ea/Blethrow_merapi1.jpg);
+        filter: brightness(0.7);
+        background-repeat: no-repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 500px;
+        background-position: -50px -15px;
+        font-size: 6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin: -35px 0 -25px -5px;
+        width: 400px;
+        font-family: 'squidGame', 'Poppins', sans-serif;
+        text-shadow: 0 0 5px #a2d4947e;
+      }
+      .QUOTE{
+        margin: 150px 50px 125px 50px;
+      }
+      .Kotak-Quote {
+        position: relative;
+        margin: 80px auto;
+        align-self: center;
+        width: 900px;
+      }
+      .IsiQuote{
+        position: relative;
+        color: #FEFAE0;
+        font-size: 60px;
+        font-weight: normal;
+        line-height: 1;
+        margin: 0;
+        border: solid 4px;
+        border-radius:20px;
+        padding: 25px;
+        font-family: 'Julee', cursive;
+      }
+      .IsiQuote:before{
+        content:"";
+        position: absolute;
+        border: 4px solid #FEFAE0;
+        border-radius: 0 50px 0 0;
+        width: 60px;
+        height: 60px;
+        bottom: -64px;
+        left: 50px;
+        border-bottom: none;
+        border-left: none;
+        z-index: 3; 
+      }
+      .IsiQuote:after{
+        content:"";
+        position: absolute;
+        width: 80px;
+        border: 6px solid rgb(17, 20, 16);
+        bottom: -5px;
+        left: 50px;
+        z-index: 2;
+      }
+      .KONTEN-Perbedaan{
+          font-family: 'DynaPuff', cursive;
+          color: #FEFAE0;
+      }
+      .JudulKonten{
+        text-align: center;
+        font-size: 60px;
+        font-weight: bolder;
+        color: #FEFAE0;
+        font-family: 'Amarante', cursive;
+      }
+      .GarisJudulKonten{
+        width: 300px;
+        border-top: #FEFAE0 10px solid;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 40px;
+      }
+      .GambarKonten1{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://images.unsplash.com/photo-1595500381751-d940898d13a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80");
+        height: 500px; 
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+      }
+      .GambarKonten2{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+        height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+      }
+      .GambarKonten3{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://images.unsplash.com/photo-1556197908-96ed0fa30b65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80");
+        height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+      }
+      .IsiKonten{
+        background-color:rgb(17, 20, 16);
+        font-size:30px;
+        color: #135658;
+        text-align: justify;
+        padding: 30px 50px 30px 50px;
+      }
+      .ConSubJudul{
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        padding-top: 200px;
+      }
+      .SubJudul{
+        color: #fffef8;
+        padding: 18px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-size: 150px;
+        font-family: 'Righteous', cursive;
+      }
+      .T, .R, .D{
+          border: none;
+          font-size: 30px;
+          color: #FEFAE0;
+      }
+      .T{
+          width: 100%;
+          margin: 0;
+          padding: 0;
+      }
+    </style>
+  </head>
+
+<body>
+  <nav>
+    <div class="logo">
+        <img src="Logo Kolese Kanisius.PNG" alt="Logo Kolese Kanisius">
+    </div>
+    <div class="logo">
+        <img src="logo white.png" alt="Logo Kelompok 31 Jambore">
+    </div>
+    <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biologi.html">Biologi</a></li>
+        <li><a href="fisika.html">Fisika</a></li>
+        <li><a href="kimia.html">Kimia</a></li>
+        <li><a href="sosiologi.html">Sosiologi</a></li>
+        <li><a href="ekonomi.html">Ekonomi</a></li>
+        <li><a href="geografi.html">Geografi</a></li>
+    </ul>
+</nav>
+  <div class="ISI">
+    <div class="HeaderIsi">
+      <p class="JudulIsi">Bagaimana Mata Air</p>
+      <p class="DesignTextMerapi">MERAPI</p>
+      <p class="JudulIsi">Dibanding Mata Air <br>Dataran Rendah ?</p>
+    </div>
+    <img class="GambarJudulIsi" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Merapi_mountain.jpg">
+  </div>
+  <div class="QUOTE">
+    <div class="Kotak-Quote">
+     <p class="IsiQuote">
+      Keunggulan Mata Air Pegunungan Vulkanik Karena <span style="font-weight: bolder">Lebih Aman Dari Bahan Kimia</span> Yang Ditemukan Di Dataran Rendah
+    </p>
+    </div>
+  </div>
+  <div class="KONTEN-Perbedaan">
+    <div class="JudulKonten">Apa Perbedaannya ?<div class="GarisJudulKonten"></div></div>
+    <div class="GambarKonten1">
+      <div class="ConSubJudul">
+        <span class="SubJudul">pH</span>
+      </div>
+    </div>
+    <div class="IsiKonten">
+        <table class="T">
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;">Daerah Klaten</td>
+                <td class="D" style="width: 10%;text-align: center;"></td>
+                <td class="D" style="width: 45%;text-align: center;">Daerah Jakarta<br><span style="font-size: 20px;">(Sumur Gali dan Sumur Pantek)</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">6.79 - 8.03</td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">4.75 - 7.43</td>
+            </tr>
+        </table>
+    </div>
+    <div class="GambarKonten2">
+      <div class="ConSubJudul">
+        <span class="SubJudul">Konduktivitas</span>
+      </div>
+    </div>
+    <div class="IsiKonten">
+        <table class="T">
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;">Daerah Klaten</td>
+                <td class="D" style="width: 10%;text-align: center;"></td>
+                <td class="D" style="width: 45%;text-align: center;">Daerah Jakarta<br><span style="font-size: 20px;">(Sumur Gali dan Sumur Pantek)</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">0.359 - 1.280<br><span style="font-size: 30px;">mS/cm</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">0.038 - 2.510<br><span style="font-size: 30px;">mS/cm</span></td>
+            </tr>
+        </table>
+    </div>
+    <div class="GambarKonten3">
+      <div class="ConSubJudul">
+        <span class="SubJudul">Kandungan Air</span>
+      </div>
+    </div>
+    <div class="IsiKonten">
+        <table class="T">
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;">Daerah Klaten</td>
+                <td class="D" style="width: 10%;text-align: center;"></td>
+                <td class="D" style="width: 45%;text-align: center;">Daerah Jakarta<br><span style="font-size: 20px;">(Sumur Gali dan Sumur Pantek)</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">0.09 - 0.21<br><span style="font-size: 30px;">mg(Fe)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">0 - 6.86<br><span style="font-size: 30px;">mg(Fe)/L</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">45 - 375<br><span style="font-size: 30px;">mg(HCO3)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">38.5 - 677<br><span style="font-size: 30px;">mg(HCO3)/L</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">0.4 - 26.5<br><span style="font-size: 30px;">mg(K)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">0 - 7.4<br><span style="font-size: 30px;">mg(K)/L</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">16.1 - 45.1<br><span style="font-size: 30px;">mg(Na)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">3 - 576<br><span style="font-size: 30px;">mg(Na)/L</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">29.6 - 112.6<br><span style="font-size: 30px;">mg(Ca)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">8.8 - 132<br><span style="font-size: 30px;">mg(Ca)/L</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">32.43 - 51.64<br><span style="font-size: 30px;">mg(Mg)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">0.9 - 103.4<br><span style="font-size: 30px;">mg(Mg)/L</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">0.1 - 14.9<br><span style="font-size: 30px;">mg(SO4)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">0 - 351.6<br><span style="font-size: 30px;">mg(SO4)/L</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">20.5 - 76<br><span style="font-size: 30px;">mg(Cl)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">4.7 - 994.7<br><span style="font-size: 30px;">mg(Cl)/L</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">0 - 38.8<br><span style="font-size: 30px;">mg(NO3)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">0 - 79<br><span style="font-size: 30px;">mg(NO3)/L</span></td>
+            </tr>
+        </table><br>
+        <table class="T" >
+            <tr class="R">
+                <td class="D" style="width: 45%;text-align: center;font-size: 60px;">0 - 0.024<br><span style="font-size: 30px;">mg(NO2)/L</span></td>
+                <td class="D" style="width: 10%;text-align: center;font-size: 100px;">VS</td>
+                <td class="D" style="width: 45%;text-align: center;font-size: 60;">0 - 1.55<br><span style="font-size: 30px;">mg(NO2)/L</span></td>
+            </tr>
+        </table>
+    </div>
+  </div>
+  <script src="nav.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+</body>
+
+<footer>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3 col-sm-6">
+              <div class="single-box">
+                  <img src="logocc.png" alt="">
+                  <br><br>
+              <p>Dibuat oleh Kelompok 31</p>
+              </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+              <div class="single-box">
+                  <h2>Anggota Kelompok</h2>
+              <ul>
+                  <li>Vincentius Farrel Bhaskoro S.</li>
+                  <li>Hans Joseph Himawan></li>
+                  <li> Jovan Iskandar</li>
+                  <li>Haposan Christian Gultom</li>
+                  <li>Alexander Bayuarsa Naresputra</li>
+                  <li>Moses Joshua Lesmana</li>
+                  <li>Andre Nicholas Sedewa B.</li>
+                  <li>Marcellus Darren Zhang</li>
+              </ul>
+              </div>                    
+          </div>
+          <div class="col-lg-3 col-sm-6">
+              <div class="single-box">
+                  <h2>Artikel Lainnya</h2>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="biologi.html">Biologi</a></li>
+                  <li><a href="fisika.html">Fisika</a></li>
+                  <li><a href="kimia.html">Kimia</a></li>
+                  <li><a href="sosiologi.html">Sosiologi</a></li>
+                  <li><a href="ekonomi.html">Ekonomi</a></li>
+                  <li><a href="geografi.html">Geografi</a></li>
+              </ul>
+              </div>                    
+          </div>
+          <div class="col-lg-3 col-sm-6">
+              <div class="single-box">
+                  <h2>Kesan &amp Pesan</h2>
+                  <p>Silahkan berikan kesan &amp pesan kalian tentang website kami</p>
+                  <div class="input-group mb-3">
+                      <form>
+                          <i class="far fa-envelope"></i><input type="email" placeholder="Masukkan email Anda" required><button type="submit"><i class="fas fa-arrow-right"></i></button>
+                      </form>
+                  </div>
+                  <h2>Follow us on</h2>
+                  <p class="socials">
+                      <i class="fa fa-facebook"></i>
+                      <i class="fa fa-dribbble"></i>
+                      <i class="fa fa-pinterest"></i>
+                      <i class="fa fa-twitter"></i>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <hr>
+<p class="kopiret"> Kelompok 31 Jambore 2023 &copy 2023 - All Right Reserved</p>
+</footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.min.js">
+
+</html>
