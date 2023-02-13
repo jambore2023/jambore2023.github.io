@@ -157,6 +157,7 @@ body {
     color: #cec9a4;
     font-size: 2rem;
     font-family: valorant;
+    max-width: 80%;
 }
 
 .desc2 {
