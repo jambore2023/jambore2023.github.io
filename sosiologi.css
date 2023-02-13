@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+html {
+    font-size: 15px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('paddy field.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.wrap {
+    top: 5rem;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgba(17, 20, 16, 0.8);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+.con1 {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.con1 p{
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    text-align: justify;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.heading {
+    font-size: 4.5rem;
+    color: #ddefcf;
+    font-family: squidGame;
+    margin: -5px;
+    text-shadow: 0 0 5px rgba(212, 255, 0, 0.64);
+}
+
+@font-face {
+    font-family: squidGame;
+    src: url('Game Of Squids.ttf');
+  }
+
+  @font-face {
+    font-family: valorant;
+    src: url('Valorant Font.ttf');
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    html {
+        font-size: 8px;
+    }
+    body {
+        background: rgb(17, 20, 16);
+    }
+    .wrap {
+        background: none;
+    }
+  }
