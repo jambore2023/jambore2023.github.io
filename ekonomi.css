@@ -1,189 +1,217 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    background-color: #606C38;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-align: center;
 }
 
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
+html {
+    font-size: 15px;
+    width: 100vw;
+    overflow-x: hidden;
 }
-nav{
-    display: flex;
-    padding: 1% 5%;
-    justify-content: space-between;
-    align-items: center;
+
+body {
+    background-image: url('merapi wallpaper.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.wrap {
+    top: 5rem;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgba(17, 20, 16, 0.8);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
 }
 
 img{
-    width: 120px;
-    height: 150px;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
 }
 
-.nav-text{
-    font-size: 1.4rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    flex: 1;
-    text-align: right;
-    text-decoration:none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: 0.5s;
-}
-
-.nav-text ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 25px 45px;
-    position: relative;
-}
-
-.nav-text ul li a{
-    text-decoration: none;
-    color: rgb(167, 209, 169);
-}
-
-.nav-text ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: rgb(173, 151, 61);
-    display: block;
-    margin: auto;
-    transition: 1s;
-}
-
-.nav-text ul li:hover::after{
-    width: 80%;
-}
-
-.body{
-    display: flexbox;
-    padding: 1% 6%;
+.page {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
     justify-content: center;
-    position: relative;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
-.text-box h1{
-    padding: 1% 6%;
-    font-size: 2.5rem;
+.subpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.flexCol {
+    flex-direction: column;
+    width: 100%;
+}
+
+.flexRow {
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.mainTitle {
+    font-size: 6rem;
+    color: #FEFAE0;
+    font-family: valorant;
+    text-shadow: 0 0 5px #fefae090;
+    margin-bottom: -10px;
+    animation-name: title;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title {
+    from {color: #FEFAE0;}
+    to  {color: #a2d494;}
+}
+
+.subTitle {
+    font-size: 3rem;
+    color: #cec798;
+    font-family: squidGame;
+    margin: -5px;
+}
+
+.subTitle2 {
+    font-size: 3rem;
+    color: #deb883;
+    font-family: 'Yellowtail', cursive;
+    text-shadow: 0 0 3px rgba(246, 255, 0, 0.707);
+    letter-spacing: 8px;
+}
+
+.col {
+    width: calc( 50% - 50px );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #ddefcf;
+    font-family: squidGame;
+    margin: -5px;
+    text-shadow: 0 0 5px rgba(212, 255, 0, 0.64);
+}
+
+.squad {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    animation-name: opac;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.merapi {
+    max-width: 680px; 
+    height: auto;
+    width: 100%;
+    animation-name: opac;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes opac {
+    from {opacity: 1;}
+    25% {opacity: 0.6;}
+    50% {opacity: 0.3;}
+    75% {opacity: 0.6;}
+    to  {opacity: 1;}
+}
+
+.desc {
+    color: #cec9a4;
+    font-size: 2rem;
+    font-family: valorant;
+}
+
+.desc2 {
+    color: #cec9a4;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.members {
+    color: #cec9a4;
+    font-size: 1.5rem;
+    font-family: valorant;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.event {
+    margin: 20px 0 10px;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.subheading {
+    color: #a4cec1;
+    font-size: 3rem;
+    font-family: 'valorant';
+}
+
+.par {
+    color: #cec9a4;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    color: blanchedalmond;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.text-box p{
-    padding: 1% 6%;
-    font-size: 1.4rem;
-    color: blanchedalmond;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.foto-kegiatan1{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-items: center;
-    padding: 1% 5%;
+    line-height: 1.5;
+    padding-top: 1rem;
 }
 
-.foto-kegiatan1 img{
-    width: 500px;
-    height: 400px;
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 80%;
-}
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 8px;
+    }
+    body {
+        background: rgb(17, 20, 16);
+    }
+    .wrap {
+        background: none;
+    }
+  }
 
-.foto-kegiatan1 h2{
-    align-items: start;
-    color: bisque;
-    font-size: 2.25rem;
-    font-family: 'Rubik', sans-serif;
-}
+@font-face {
+    font-family: squidGame;
+    src: url('Game Of Squids.ttf');
+  }
 
-.foto-kegiatan1 p{
-    float: right;
-    text-align: right;
-    font-size: 1.25rem;
-    color: bisque;
-    font-family: 'Nunito', sans-serif;
-}
-
-
-.foto-kegiatan2{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-items: center;
-    padding: 1% 5%;
-}
-.foto-kegiatan2 p{
-    color: bisque;
-    font-size: 1.25rem;
-    font-family: 'Nunito', sans-serif;
-}
-.foto-kegiatan2 h2{
-    color: bisque;
-    font-size: 2.25rem;
-    font-family: 'Rubik', sans-serif;
-}
-
-.foto-kegiatan2 img{
-    float: right;
-    width: 500px;
-    height: 400px;
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 80%;
-}
-
-.foto-kegiatan3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    padding: 1% 5%;
-}
-
-.foto-kegiatan3 img{
-    width: 500px;
-    height: 400px;
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 80%;
-}
-
-.foto-kegiatan3 p{
-    float: right;
-    text-align: right;
-    color: bisque;
-    font-size: 1.25rem;
-    font-family: 'Nunito', sans-serif;
-}
-
-.foto-kegiatan3 h2{
-    float: right;
-    text-align: right;
-    color: bisque;
-    font-size: 2.25rem;
-    font-family: 'Rubik', sans-serif;
-}
-.video-tambahan h2{
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.8rem;
-    color: bisque;
-}
-.video-tambahan video{
-    width: 800px;
-    height: 500px;
-    margin: auto 0px;
-    display: block;
-    background-image: url(DOKUMENTASI/background.gif
-    );
-    border-radius: 3%;
-}
+  @font-face {
+    font-family: valorant;
+    src: url('Valorant Font.ttf');
+  }
