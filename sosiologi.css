@@ -35,7 +35,7 @@ body {
     background-size: 100%;
 }
 
-.con1 {
+.con {
     display: flex;
     width: 100%;
     min-height: 100vh;
@@ -43,22 +43,61 @@ body {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    padding: 30px;
 }
 
-.con1 p{
+.con p{
     font-family: 'Poppins', sans-serif;
-    width: 50%;
+    width: 100%;
     text-align: justify;
     color: white;
     font-size: 1.5rem;
+    padding-top: 30px;
+    max-width: 80%;
 }
 
 .heading {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: #ddefcf;
     font-family: squidGame;
     margin: -5px;
     text-shadow: 0 0 5px rgba(212, 255, 0, 0.64);
+}
+
+.col {
+    width: calc( 50% - 50px );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+}
+
+.subpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.flexRow {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.img {
+    max-width: 500px;
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.desc {
+    min-width: 400px;
+    width: calc(80% - 600px) !important;
 }
 
 @font-face {
@@ -72,14 +111,8 @@ body {
   }
 
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     html {
         font-size: 8px;
     }
-    body {
-        background: rgb(17, 20, 16);
-    }
-    .wrap {
-        background: none;
-    }
-  }
+}
